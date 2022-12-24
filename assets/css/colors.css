@@ -1,0 +1,27 @@
+:root{
+  --lila: #9089ee;
+    --blancoCremaOscuro: #f8f2f2;
+    --blancoCrem:#e4dede;
+      --blancoCrema: #fdfdfd;
+      --blancoSuave: #f9f9f9;
+      --ceniza: #868383;
+      --esmeralda:#4DBA7A;
+      --gris: #e5e5e5;
+      --grisOscuro:#5c5b5b;
+      --grisClaro: #808080;
+      --pacifico:'Pacifico',cursive;
+      --vinotinto:#8d0606;
+      --sombra:#003f;
+      --sombraRoja: red;
+      --naranja: #ff8080;
+
+      }
+      .box{
+        align-items: flex-end;
+        display: flex;
+        justify-content: center;
+        }
+        .trashIcon:hover {
+          color: #f00;
+          }
+  

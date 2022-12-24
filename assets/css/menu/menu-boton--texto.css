@@ -1,0 +1,10 @@
+.menu__boton--texto{
+	border-top-left-radius: 15px;
+	border-bottom-left-radius: 15px;
+	padding: 5px;
+	border: none;
+	box-shadow: 0px 0px 10px 1px black;	
+	text-align: end;
+	padding-left: 50%;
+	
+}	

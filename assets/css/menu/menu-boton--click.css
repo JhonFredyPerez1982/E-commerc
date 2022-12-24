@@ -1,0 +1,8 @@
+.menu__boton--click{
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	background-color: var(--esmeralda);
+	color:var(--blancoSuave);
+	cursor: pointer;
+border: none;	
+}

@@ -1,0 +1,5 @@
+.formato__fieldset{
+    align-self: start;
+    border: ridge 10px;
+    border-radius: 2px;
+}

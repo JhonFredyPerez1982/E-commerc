@@ -1,0 +1,5 @@
+.menu__lista{
+  background: var(--blancoCrem);
+  flex-direction: row;
+}  
+    

@@ -1,0 +1,59 @@
+.destaques{
+    display: grid;
+grid-template-columns: 15% 35% 35% 15%;
+grid-template-rows:10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+height:calc(100vh - 0px);
+gap: 0.3rem;;
+}
+.destaques__principal{
+    background: url('../img/pexels-quang-nguyen-vinh-2131904.jpg') center/cover no-repeat;
+    grid-column:2/4;
+    grid-row: 1/9;
+}
+.destaques__secundario:nth-child(2){
+    background:url(../img/pexels-charlotte-may-5946588.jpg) center/cover no-repeat;
+    grid-column:1/2;
+    grid-row: 1/10;
+}
+.destaques__secundario:nth-child(3){
+    background: url(../img/pexels-shameel-mukkath-12049922.png)center/cover no-repeat;
+grid-column: 4/4;
+grid-row:1/10 ;
+}
+.destaques__secundario:nth-child(4){
+grid-column: 2/3;
+grid-row:5/6 ;
+}
+.destaques__secundario:nth-child(5){
+    grid-column: 3/4;
+    grid-row:5/6 ;
+    }
+.destaques__categorias{
+grid-column: 2/4;
+grid-row: 9/10;
+}
+.destaques__titulo{
+    color: #fdfdfd;
+    background: rgb(0,0,0,0.5);
+    width: 100%;
+    text-align: center;
+padding: .6rem;
+}
+.destaques__botonR{
+    text-align: end;
+    font-weight: bold;
+}
+.destaques__botonDisplayR{
+    border-top-right-radius: 100%;
+    border-top-style:hidden;
+    background: navajowhite;
+    border: solid rgb(204, 178, 138);
+
+}
+.destaques__botonDisplayL{
+    border-bottom-left-radius: 100%;
+    border-top-style:hidden;
+    background: navajowhite;
+    border: solid rgb(204, 178, 138);
+
+}
